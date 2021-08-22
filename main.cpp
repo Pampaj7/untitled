@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-void greet (std::string name) {
+void greet (const std::string& name) {
     std::cout << "hello" << name << std::endl;
 }
 int main() {

@@ -1,6 +1,10 @@
 #include <iostream>
 
+
+void greet (std::string name) {
+    std::cout << "hello" << name << std::endl;
+}
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    greet("gay");
     return 0;
 }
